@@ -110,7 +110,13 @@ namespace ComputationalThinkingExercises
                 Console.Clear();
                 Console.WriteLine("EVEN OR ODD?\n");
 
-                // Enter your solution here
+            Console.WriteLine("May I have a number, please?");
+            int numberFirst = Convert.ToInt32(Console.ReadLine());
+            if (numberFirst % 2 == 0)
+                Console.WriteLine("Your number is even!");
+            else
+                Console.WriteLine("Your number is odd!");
+
 
                 Console.Write("Press enter to return to the Main Menu");
                 Console.ReadLine();
