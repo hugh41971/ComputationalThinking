@@ -130,7 +130,91 @@ namespace ComputationalThinkingExercises
                 Console.Clear();
                 Console.WriteLine("VOWEL OR CONSONANT?\n");
 
-                // Enter your solution here
+                Console.WriteLine("Hello! 'Tis I, Kazoo the Alphabet Genie!");
+                Console.WriteLine("Give me a letter, and I will magically tell you if it is a vowel or a consonant!");
+                string alphaBits = (Console.ReadLine());
+                switch (alphaBits)
+                {
+                case "a":
+                    Console.WriteLine("Abracadbra!! You've got a vowel!");
+                    break;
+                case "b":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "c":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "d":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "e":
+                    Console.WriteLine("Abracadbra!! You've got a vowel!");
+                    break;
+                case "f":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "g":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "h":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "i":
+                    Console.WriteLine("Abracadbra!! You've got a vowel!");
+                    break;
+                case "j":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "k":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "l":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "m":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "n":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "o":
+                    Console.WriteLine("Abracadbra!! You've got a vowel!");
+                    break;
+                case "p":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "q":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "r":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "s":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "t":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "u":
+                    Console.WriteLine("Abracadbra!! You've got a vowel!");
+                    break;
+                case "v":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "w":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                case "y":
+                    Console.WriteLine("My magic is getting stronger!! THIS LETTER IS BOTH!!!");
+                    break;
+                case "z":
+                    Console.WriteLine("Shazam!! That is a consonant!");
+                    break;
+                    Console.WriteLine("I will now disappear...no, stop looking...");
+
+                   
+                       
+
 
                 Console.Write("Press enter to return to the Main Menu");
                 Console.ReadLine();
@@ -144,9 +228,22 @@ namespace ComputationalThinkingExercises
                 Console.Clear();
                 Console.WriteLine("FIND THE LARGEST NUMBER\n");
 
-                // Enter your solution here
+            Console.WriteLine("I'm trying to figure out if I can do math. May I have a number, please?");
+            int firstNumeral = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Thank you. May I have another?");
+            int secondNumeral = Convert.ToInt32(Console.ReadLine());
+                if (firstNumeral > secondNumeral)
+                {
+                    Console.WriteLine(firstNumeral + "is the bigger number!");
+                    
+                }
+                else
+                {
+                    Console.WriteLine(secondNumeral + "is the bigger number!");
+                    
+                }
 
-                Console.Write("Press enter to return to the Main Menu");
+            Console.Write("Press enter to return to the Main Menu");
                 Console.ReadLine();
             }
 
