@@ -234,12 +234,12 @@ namespace ComputationalThinkingExercises
             int secondNumeral = Convert.ToInt32(Console.ReadLine());
                 if (firstNumeral > secondNumeral)
                 {
-                    Console.WriteLine(firstNumeral + "is the bigger number!");
+                    Console.WriteLine(firstNumeral + " is the bigger number!");
                     
                 }
                 else
                 {
-                    Console.WriteLine(secondNumeral + "is the bigger number!");
+                    Console.WriteLine(secondNumeral + " is the bigger number!");
                     
                 }
 
@@ -254,8 +254,16 @@ namespace ComputationalThinkingExercises
                 Console.Clear();
                 Console.WriteLine("DIVISIBLE BY 3\n");
 
-                // Enter your solution here
-
+            Console.WriteLine("Hello1 I'm doing math again - the world is warned! Would you give me a number so that I may determine whether it is divisible by 3?");
+            int threeSies = Convert.ToInt32(Console.ReadLine());
+            if (threeSies / 3 == 1)
+            {
+                Console.WriteLine("Divisible by 3. Boy, I'm good!");
+            }
+            else
+            {
+                Console.WriteLine("Not divisible by 3. But we're still friends.");
+            }
                 Console.Write("Press enter to return to the Main Menu");
                 Console.ReadLine();
             }
@@ -364,7 +372,11 @@ namespace ComputationalThinkingExercises
                 Console.Clear();
                 Console.WriteLine("NAME AND PLACE OF BIRTH\n");
 
-                // Enter your solution here
+            Console.WriteLine("Hi! What's your first name?");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("And where were you born?");
+            string birthPlace = Console.ReadLine();
+            Console.WriteLine("Your name is " + firstName + " and you're from " + birthPlace + " ! That's so cool!");
 
                 Console.Write("Press enter to return to the Main Menu");
                 Console.ReadLine();
