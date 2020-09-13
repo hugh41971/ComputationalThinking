@@ -133,8 +133,8 @@ namespace ComputationalThinkingExercises
                 Console.WriteLine("Hello! 'Tis I, Kazoo the Alphabet Genie!");
                 Console.WriteLine("Give me a letter, and I will magically tell you if it is a vowel or a consonant!");
                 string alphaBits = (Console.ReadLine());
-                switch (alphaBits)
-                {
+            switch (alphaBits)
+            {
                 case "a":
                     Console.WriteLine("Abracadbra!! You've got a vowel!");
                     break;
@@ -210,7 +210,7 @@ namespace ComputationalThinkingExercises
                 case "z":
                     Console.WriteLine("Shazam!! That is a consonant!");
                     break;
-                    Console.WriteLine("I will now disappear...no, stop looking...");
+            }  
 
                    
                        
