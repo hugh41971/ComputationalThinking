@@ -113,10 +113,13 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("May I have a number, please?");
             int numberFirst = Convert.ToInt32(Console.ReadLine());
             if (numberFirst % 2 == 0)
+            {
                 Console.WriteLine("Your number is even!");
+            }
             else
+            {
                 Console.WriteLine("Your number is odd!");
-
+            }
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
@@ -415,8 +418,23 @@ namespace ComputationalThinkingExercises
                 Console.Clear();
                 Console.WriteLine("WHICH NAME IS LONGER?\n");
 
-                Console.WriteLine("Hello! I'm comparing name lengths. May I have a name?");
-
+            Console.WriteLine("Hello! I'm comparing name lengths. May I have your first name?");
+            string givenName = Console.ReadLine();
+            int one = givenName.Length;
+            Console.WriteLine("Thank you! May I have your last name?");
+            string familyName = Console.ReadLine();
+            int two = familyName.Length;
+            Console.WriteLine(givenName + " " + familyName);
+            if (one > two)
+            {
+                Console.WriteLine("First is longer.");
+            }
+            else
+            {
+                Console.WriteLine("Last must be longer!");
+            }
+            Console.WriteLine();
+            
 
 
 
